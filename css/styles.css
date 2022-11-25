@@ -56,8 +56,6 @@ header {
     
 
 }
-
-
 .header {
     display: flex;
     align-items: center;
@@ -102,10 +100,6 @@ header {
     letter-spacing: 0.02em;
     color: var(--title-text-color);
 }
-.studio {
-    
-}
-
 .nav-link:hover,
 .nav-link:focus {
     color: var(--logo-text-color);
