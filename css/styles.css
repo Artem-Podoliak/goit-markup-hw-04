@@ -138,20 +138,17 @@ header {
 /* icon-mail-tel */
 .icon-mail, .icon-tel {
     display: flex;
-    fill: var(--desc-color);
+    fill: currentColor;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
 }
 
-.icon-mail:hover,
-.icon-mail:focus {
-    fill: var(--logo-text-color);
+.nav-connection:hover,
+.nav-connection:focus {
+    fill: currentColor;
 }
-.icon-tel:hover,
-.icon-tel:focus {
-    fill: var(--logo-text-color);
-}
+
 
 
 
@@ -484,11 +481,10 @@ background-color: #F5F4FA;
 
 .title-item {
     margin-bottom: 4px;
-
-
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--title-text-color);
 }
 .text-category {
 
